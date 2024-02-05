@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>DialEd</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+	<header id="header">
+		<nav>
+			<div class="hub">
+				<span>Dial</span>
+				<span>Ed</span>
+			  </div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Hindi DialED: <b><span>+1 (641) 938-4420</span></b><br>English DialED: <b><span>+1 (484) 992-9944</span></b></p>
+				<h5>Education is the universal key that unlocks the boundless potential within every individual, transcending barriers and empowering all to thrive, contribute, and shape a brighter collective future.</h5>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+	<div class="title">
+		<span>Popular Subjects on DialEd</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/jee.html"><img src="images/courses/book.png">JEE Preparation</a></div>
+		<div class="det"><a href="subjects/computer_courses.html"><img src="images/courses/computer.png">Computer Courses</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#data"><img src="images/courses/data.png">Data Structures</a></div>
+		<div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src="images/courses/projects.png">Projects</a></div>
+		<!-- <div class="det"><a href="subjects/quiz.html"><img src="images/courses/d1.png">Daily Quiz</a></div> -->
+		</div></center>
+		<!-- <div class="cbox"> -->
+		<!-- <div class="det"><a href="subjects/computer_courses.html#algo"><img src="images/courses/algo.png">Algorithm</a></div> -->
+		<!-- </div> -->
+	</div>
+
+	
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e6.jpg">
+				</div>
+				<div class="side-text">
+					<!-- <h2>What you think about us ?</h2> -->
+					<p>Presenting 'DialEd' a revolutionary tech-education initiative for remote Indian villages. With a unique calling system, users can access comprehensive learning resources without internet. This groundbreaking project empowers learners by providing instant answers to queries, fostering education in areas with limited connectivity. ConnectEduVoice aims to break barriers, making quality education accessible to all, transforming lives in the remotest corners of India.</p>
+				</div>
+		</div>
+	</div>
+
+	<br><br><br><br>
+
+
+
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services</p></center>
+	</div>
+		<a href="subjects/quiz.html"><div class="s-card"><img src="images/icon/call.webp"><p>Learning over the phone</p></div></a>
+		<a href="subjects/computer_courses.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Free Online Courses</p></div></a>
+		<!-- <a href="subjects/jee.html"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Online Video Lectures</p></div></a> -->
+		<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src="images/icon/papers.jpg"><p>NCERT Books</p></div></a>
+		<!-- <a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a> -->
+		<a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a>
+	</div>
+
+<div class="review">
+	<div class="diffSection" id="review_section">
+		<center><p style="font-size: 40px; padding: 100px; padding-bottom: 40px; color: #2E3D49;">What the Students Say About Us?</p></center>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/rural-girl.webp"><p>Rani</p>
+				<h6>English</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					DialEd ने मेरी जिंदगी बदल दी! इससे मैंने बेसिक अंग्रेजी सीखी, अब शिक्षकों से कॉल कर प्रश्न पूछता हूँ, और उत्तर को टेक्स्ट मेसेज़ में प्राप्त करता हूँ। यह सेवा ने मेरी पढ़ाई को सुविधाजनक बना दिया है, विशेषकर मेरे अंग्रेजी में सुधार के लिए। धन्यवाद, DialEd
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/walking-to-school.jpg"><p>Anjali</p>
+				<h6>Science</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					DialEd ने मुझे बेसिक साइंस सीखने में मदद की है! इस सेवा के जरिए, मैं अपने विज्ञान शिक्षक से कॉल करके सीधे सवाल पूछ सकता हूँ और फिर उनके जवाब को टेक्स्ट मेसेज़ के रूप में प्राप्त करता हूँ। इससे मेरा बेसिक साइंस का ज्ञान मजबूत हुआ है और मैं अब अधिक समझदार और आत्मनिर्भर हूँ। DialEd का बहुत शुक्रिया, यह सेवा मेरी पढ़ाई को नए मायने में ले जाने में मदद कर रही है!
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/kid.jpg"><p>Devansh</p>
+				<h6>Social Science</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					DialEd से सामाजिक विज्ञान सीखने में मदद मिली! शिक्षकों से कॉल कर सीधे प्रश्न पूछना और उत्तरों को टेक्स्ट मेसेज़ में प्राप्त करना, यह सेवा ने मेरी शिक्षा को सरल और सुविधाजनक बना दिया है। धन्यवाद, CallLearn Q&A Hub!
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="images/creator/rural.webp"><p>Rohan</p>
+				<h6>Home Science</h6>
+				<div class="rating"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"><img src="images/icon/star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					DialEd ने मुझे घरेलू विज्ञान सीखने में सहायता की है! इस सेवा के माध्यम से, मैं अपने घरेलू विज्ञान शिक्षक से कॉल कर सीधे सवाल पूछ सकता हूँ और फिर उनके उत्तरों को टेक्स्ट मेसेज़ के रूप में प्राप्त करता हूँ। इससे मेरा घरेलू विज्ञान में ज्ञान मजबूत हुआ है और मैं अब अधिक स्वायत्तता से घर का प्रबंधन कर सकता हूँ। धन्यवाद, DialEd!
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<div class="hub1" style="width: 200px;">
+					<span>Dial</span>
+					<span>Ed</span>
+				  </div>
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="www.facebook.com"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Created By Team Khurpechi</p>
+				<br><p><img src="images/icon/location.png">Delhi Technological University<br>Bawana Road, Delhi-110086</p><br>
+				<p><img src="images/icon/phone.png"> +91-1234-567-890<br><img src="images/icon/mail.png">&nbsp; Khurpechi@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
